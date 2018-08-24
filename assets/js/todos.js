@@ -1,12 +1,23 @@
 // marking todo as done
-$("li").click(function(){
+$("ul").on('click', 'li', function(){
   $(this).toggleClass("completed");
 });
 
 // deleting todo
-$("span").click(function(event){
+$("ul").on('click', 'span', function(event){
   $(this).parent().fadeOut(500, function(){
     $(this).remove();
   })
   event.stopPropagation();
 })
+
+// adding todos
+$("input[type='text']").keypress(function(event){
+  if(event.which === 13){
+    // grabing new text from input
+    var todoText = $(this).val();
+    $(this).val("");
+    // create new li
+    $("ul").append("<li><span>X</span> " + todoText + "</li>");
+  }
+});
