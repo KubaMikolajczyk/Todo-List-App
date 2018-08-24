@@ -8,7 +8,7 @@ Simple web todo app created to excersice on jQuery.
 <br>
 
 Simple todo list. You can click list item to get it crossed out.<br>
-![todo1](https://raw.githubusercontent.com/KubaMikolajczyk/Todo-List-App/master/jpg/todo1.jpg)
+![todo1](https://raw.githubusercontent.com/KubaMikolajczyk/Todo-List-App/tree/master/jpg/todo1.jpg)
 
 
 <br>
@@ -16,7 +16,7 @@ Simple todo list. You can click list item to get it crossed out.<br>
 <br>
 
 When you hover it - trash can animation is on - you can delete old todo by clicking on bin icon<br>
-![todo2](https://raw.githubusercontent.com/KubaMikolajczyk/Todo-List-App/master/jpg/todo2.jpg)
+![todo2](https://raw.githubusercontent.com/KubaMikolajczyk/Todo-List-App/tree/master/jpg/todo2.jpg)
 
 
 <br>
@@ -24,6 +24,6 @@ When you hover it - trash can animation is on - you can delete old todo by click
 <br>
 
 You can add new todo item by typing it on input space.<br>
-![todo3](https://raw.githubusercontent.com/KubaMikolajczyk/Todo-List-App/master/jpg/todo3.jpg)
+![todo3](https://raw.githubusercontent.com/KubaMikolajczyk/Todo-List-App/tree/master/jpg/todo3.jpg)
 
 Thank you!
